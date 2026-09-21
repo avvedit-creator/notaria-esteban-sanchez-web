@@ -385,13 +385,8 @@ def contacto():
     s += footer(); write("contacto.html", s)
 
 def extras():
-    write("robots.txt", "User-agent: *
-Disallow: /
-" if DEMO else f"User-agent: *
-Allow: /
-
-Sitemap: {BASE}sitemap.xml
-")
+    NL = chr(10)
+    write("robots.txt", ("User-agent: *" + NL + "Disallow: /" + NL) if DEMO else ("User-agent: *" + NL + "Allow: /" + NL + NL + "Sitemap: " + BASE + "sitemap.xml" + NL))
     urls = [""] + [h for h, _ in NAV]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join(f"  <url><loc>{BASE}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
