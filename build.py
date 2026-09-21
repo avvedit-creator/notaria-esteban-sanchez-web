@@ -217,7 +217,7 @@ def footer():
 </body></html>'''
 
 def cta_final():
-    return f'''<section class="dark cta-final"><video class="bgvid" data-src="assets/video/sobres.mp4" poster="assets/video/sobres.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video><div class="wrap">
+    return f'''<section class="dark cta-final"><video class="bgvid" data-src="assets/video/apreton.mp4" poster="assets/video/apreton.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video><div class="wrap">
   <p class="label rule rv">Contacto</p>
   <h2 class="rv">Resolvamos su trámite de manera <em>ágil y eficiente.</em></h2>
   <a class="tel rv" href="tel:{TEL_HREF}">{TEL}</a>
@@ -240,8 +240,8 @@ def index():
     s += header("index.html", True)
     s += f'''
 <main id="main">
-<section class="hero" style="padding:0"><video class="bgvid d" data-src="assets/video/firma.mp4" poster="assets/video/firma.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
- <video class="bgvid m" data-src="assets/video/puerta.mp4" poster="assets/video/puerta.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+<section class="hero" style="padding:0"><video class="bgvid d" data-src="assets/video/documento.mp4" poster="assets/video/documento.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
+ <video class="bgvid m" data-src="assets/video/trato-movil.mp4" poster="assets/video/trato-movil.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video>
  <div class="wrap">
   <p class="label rule">Nihil prius fide</p>
   <h1>Notario en Madrid, <em>Esteban Sánchez Sánchez</em></h1>
@@ -271,7 +271,7 @@ def index():
   <p style="margin-top:36px" class="rv"><a class="link" href="escrituras.html">Ver las {len(ESCRITURAS)} escrituras y actas</a></p>
 </div></section>
 
-<section class="band"><video class="bgvid" data-src="assets/video/pluma.mp4" poster="assets/video/pluma.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video><div class="wrap">
+<section class="band"><video class="bgvid" data-src="assets/video/acuerdo.mp4" poster="assets/video/acuerdo.jpg" muted loop playsinline preload="none" aria-hidden="true" tabindex="-1"></video><div class="wrap">
   <p class="label rule">Seguridad jurídica</p>
   <blockquote>«El notario es garante de la <em>seguridad jurídica</em> y controlador de la legalidad.»</blockquote>
 </div></section>

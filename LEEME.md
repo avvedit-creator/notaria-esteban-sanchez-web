@@ -13,7 +13,7 @@ Sitio estático. Editar contenido en `build.py` y regenerar con `python build.py
 6. Formulario = mailto (sin servidor). Blog/arancel enlazan aún a essnotario.com.
 
 ## Videos de fondo (Pexels, de tu biblioteca)
-`assets/video/`: firma (portada escritorio), puerta (portada móvil, vertical), pluma (banda de la cita), sobres (cierre en todas las páginas).
+`assets/video/`: documento (portada escritorio), trato-movil (portada móvil), acuerdo (banda de la cita), apreton (cierre). Origen: Recursos/Videos/Oficina (no se reutilizan los de Acosta Pastore).
 Transcodificados sin audio y con el duotono azul horneado (~1,6 MB en total). Cargan al verse, se pausan al salir y no se reproducen con "reducir movimiento" (queda el póster).
 
 ## Textos: qué es literal y qué no
